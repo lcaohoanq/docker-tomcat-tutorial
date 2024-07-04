@@ -8,14 +8,13 @@ See tutorial here - https://www.softwareyoga.com/docker-tomact-tutorial/
 * Clone this repository 
 
 ```bash
-```
 git clone https://github.com/softwareyoga/docker-tomcat-tutorial.git
 cd 'docker-tomcat-tutorial'
 docker build -t mywebapp .
 # docker run -p 80:8080 mywebapp
 docker run --ulimit nofile=122880:122880 -p 8081:8080 mywebapp
 ```
-```
+
 - Access: http://localhost:8081
 
 # Links
